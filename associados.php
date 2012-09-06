@@ -95,6 +95,7 @@ function startups_options() {
         // Graver cadastro
         save_startups($_POST);
 	} else {
+<<<<<<< HEAD
         if (isset($_GET['startup_id']) && $_GET['startup_id']) {
             $form = get_startup($_GET['startup_id']);
         } else {
@@ -103,6 +104,11 @@ function startups_options() {
 		}
 
         include('startups_form.php');
+=======
+		$form = ($_GET['startup_id']) ? get_startup($id) : 
+			array('id' => 1, 'email' => 'contato@starspremium.com.br', 'nome' => 'StarsPremium', 'endereco' => 'Rua Teldo Kasper, 109', 'cidade' => 0, 'elevator_pitch' => 'STARSPREMIUM é uma agência de incentivo e relacionamento, nova e diferente. Jovem, cheia de energia e inovadora.', 'estagio' => 2, 'segmento' => '3,10,Incentivo e fidelização', 'fundacao' => new DateTime('2011-08-20'), 'startup_ajuda' => 2, 'url' => 'http://starspremium.com.br', 'facebook' => '', 'twitter' => 'starspremium', 'logomarca' => '', 'nome_socio1' => 'Saulo Arruda', 'telefone_socio1' => '(67) 9238-4909', 'email_socio1' => 'saulo@starspremium.com.br', 'formacao_socio1' => 'Melhoria do Processo de Software', 'nome_socio2' => 'Jefferson Moreira', 'telefone_socio2' => '(67) 9257-7444', 'email_socio2' => 'jeffmor@starspremium.com.br', 'formacao_socio2' => 'Ciência da Computação', 'nome_socio3' => 'Flávio Antunes', 'telefone_socio3' => '(11) 98882-0202', 'email_socio3' => 'flavio@starspremium.com.br', 'formacao_socio3' => 'Publicidade e Propaganda');
+		include('startups_form.php');
+>>>>>>> b87dd4baa5674930921bb250d21bffbcdd2acb59
 	}
 }
 
@@ -182,6 +188,17 @@ function get_cidades() {
 	);
 }
 
+<<<<<<< HEAD
+=======
+function get_cidades() {
+	return array(
+		array(0, 'Campo Grande'),
+		array(1, 'Dourados'),
+		array(2, 'Três Lagoas')
+	);
+}
+
+>>>>>>> b87dd4baa5674930921bb250d21bffbcdd2acb59
 function get_estagios() {
 	return array(
 		array(0, 'Pré-modelo - ainda estamos tentando encontrar um modelo para ter receita'),
@@ -215,6 +232,7 @@ function get_startup_ajudas() {
 		array(4, 'Outro')
 		);	
 }
+<<<<<<< HEAD
 
 
 // Esta função lista as Startups cadastradas
@@ -225,3 +243,6 @@ function list_startups() {
 
     include('startups_list.php');
 }
+=======
+?>
+>>>>>>> b87dd4baa5674930921bb250d21bffbcdd2acb59
