@@ -16,13 +16,8 @@
 	                        <input name="senha" type="password" id="senha" />
 	                    </div>
 	                    <div>
-<<<<<<< HEAD
 	                        <label for="senha_comfir">Confirmação Senha</label>
 	                        <input name="senha_comfir" type="password" id="senha_confirm" />
-=======
-	                        <label for="senha-comfir">Confirmação Senha</label>
-	                        <input name="senha-comfir" type="password" id="senha-confirm" />
->>>>>>> b87dd4baa5674930921bb250d21bffbcdd2acb59
 	                    </div>
 					</div>
                 </div>
@@ -39,13 +34,8 @@
 	                        <input name="endereco" type="text" id="endereco" value="<?php echo $form['endereco'] ?>" />
 	                    </div>
 	                    <div>
-<<<<<<< HEAD
 	                        <label for="cidade">Cidade</label>
 	                        <select name="cidade" id="cidade">
-=======
-	                        <label for="endereco">Cidade</label>
-	                        <select name="endereco" id="endereco">
->>>>>>> b87dd4baa5674930921bb250d21bffbcdd2acb59
 	                          <option value="">Escolha a cidade</option>
 							  <?php foreach (get_cidades() as $cidade) : ?>
 							  <option value="<?php echo $cidade[0] ?>" <?php echo ($form['cidade'] == $cidade[0]) ? 'selected' : '' ?>><?php echo $cidade[1] ?></option>
@@ -124,13 +114,10 @@
 		                        <input name="telefone_socio1" type="text" id="telefone_socio1" value="<?php echo $form['telefone_socio1'] ?>" />
 		                    </div>
 							<div>
-<<<<<<< HEAD
 		                        <label for="cargo_socio1">Cargo</label>
 		                        <input name="cargo_socio1" type="text" id="cargo_socio1" value="<?php echo $form['cargo_socio1'] ?>" />
 		                    </div>
 							<div>
-=======
->>>>>>> b87dd4baa5674930921bb250d21bffbcdd2acb59
 		                        <label for="formacao_socio1">Formação</label>
 		                        <textarea name="formacao_socio1" cols="50" rows="3" id="formacao_socio1"><?php echo $form['formacao_socio1'] ?></textarea>
 		                    </div>
@@ -150,13 +137,10 @@
 		                        <input name="telefone_socio2" type="text" id="telefone_socio2" value="<?php echo $form['telefone_socio2'] ?>" />
 		                    </div>
 							<div>
-<<<<<<< HEAD
 		                        <label for="cargo_socio2">Cargo</label>
 		                        <input name="cargo_socio2" type="text" id="cargo_socio2" value="<?php echo $form['cargo_socio2'] ?>" />
 		                    </div>
 							<div>
-=======
->>>>>>> b87dd4baa5674930921bb250d21bffbcdd2acb59
 		                        <label for="formacao_socio2">Formação</label>
 		                        <textarea name="formacao_socio2" cols="50" rows="3" id="formacao_socio2"><?php echo $form['formacao_socio2'] ?></textarea>
 		                    </div>
@@ -176,13 +160,10 @@
 		                        <input name="telefone_socio3" type="text" id="telefone_socio3" value="<?php echo $form['telefone_socio3'] ?>" />
 		                    </div>
 							<div>
-<<<<<<< HEAD
 		                        <label for="cargo_socio3">Cargo</label>
 		                        <input name="cargo_socio3" type="text" id="cargo_socio3" value="<?php echo $form['cargo_socio3'] ?>" />
 		                    </div>
 							<div>
-=======
->>>>>>> b87dd4baa5674930921bb250d21bffbcdd2acb59
 		                        <label for="formacao_socio3">Formação</label>
 		                        <textarea name="formacao_socio3" cols="50" rows="3" id="formacao_socio3"><?php echo $form['formacao_socio3'] ?></textarea>
 		                    </div>

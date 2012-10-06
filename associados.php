@@ -182,17 +182,6 @@ function get_cidades() {
 	);
 }
 
-<<<<<<< HEAD
-=======
-function get_cidades() {
-	return array(
-		array(0, 'Campo Grande'),
-		array(1, 'Dourados'),
-		array(2, 'Três Lagoas')
-	);
-}
-
->>>>>>> b87dd4baa5674930921bb250d21bffbcdd2acb59
 function get_estagios() {
 	return array(
 		array(0, 'Pré-modelo - ainda estamos tentando encontrar um modelo para ter receita'),
@@ -226,7 +215,7 @@ function get_startup_ajudas() {
 		array(4, 'Outro')
 		);	
 }
-<<<<<<< HEAD
+
 
 
 // Esta função lista as Startups cadastradas
@@ -237,6 +226,4 @@ function list_startups() {
 
     include('startups_list.php');
 }
-=======
 ?>
->>>>>>> b87dd4baa5674930921bb250d21bffbcdd2acb59
